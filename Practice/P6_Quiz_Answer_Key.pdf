@@ -1,0 +1,49 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1230 >>
+stream
+BT /F2 15 Tf 42 800 Td (Quiz Answer Key) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Practice Part B - Questions 1-10) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Q1. B - O\(1\): accessing a value at a known array index is constant time.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (Q2. C - Insertion: adding an element is insertion.) Tj ET
+BT /F1 7.3 Tf 42 731 Td (Q3. C: match required operations and constraints to suitable data structures.) Tj ET
+BT /F1 7.3 Tf 42 721 Td (Q4. C - Time vs space trade-offs: caching uses extra memory to reduce recomputation.) Tj ET
+BT /F1 7.3 Tf 42 711 Td (Q5. B - O\(m+n\): two separate, non-nested loops add their costs.) Tj ET
+BT /F1 7.3 Tf 42 701 Td (Q6. C - Linear data structure: elements are arranged sequentially.) Tj ET
+BT /F1 7.3 Tf 42 691 Td (Q7. C - O\(n\): Big-O drops constant factors and additive constants.) Tj ET
+BT /F1 7.3 Tf 42 681 Td (Q8. D - Linked list: it is a non-primitive data structure.) Tj ET
+BT /F1 7.3 Tf 42 671 Td (Q9. B - O\(m*n\): every cell in an m by n grid is visited.) Tj ET
+BT /F1 7.3 Tf 42 661 Td (Q10. C: organize, store, and access data efficiently for required operations.) Tj ET
+BT /F1 7.3 Tf 42 641 Td (Answer string: B, C, C, C, B, C, C, D, B, C.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001532 00000 n 
+0000001600 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1675
+%%EOF

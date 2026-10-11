@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1364 >>
+stream
+BT /F2 15 Tf 42 800 Td (Most Popular Canteen Order) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Coding Assignment - Problem 3 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Return the most frequent item and count. Ties go to the item appearing first.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (def mostPopular\(orders\):) Tj ET
+BT /F1 7.3 Tf 42 731 Td (counts = {}) Tj ET
+BT /F1 7.3 Tf 42 721 Td (for item in orders:) Tj ET
+BT /F1 7.3 Tf 42 711 Td (counts[item] = counts.get\(item, 0\) + 1) Tj ET
+BT /F1 7.3 Tf 42 701 Td (best_item = orders[0]) Tj ET
+BT /F1 7.3 Tf 42 691 Td (best_count = counts[best_item]) Tj ET
+BT /F1 7.3 Tf 42 681 Td (for item in orders:) Tj ET
+BT /F1 7.3 Tf 42 671 Td (if counts[item] > best_count:) Tj ET
+BT /F1 7.3 Tf 42 661 Td (best_item, best_count = item, counts[item]) Tj ET
+BT /F1 7.3 Tf 42 651 Td (return \(best_item, best_count\)) Tj ET
+BT /F1 7.3 Tf 42 631 Td (print\(mostPopular\(['dosa','idli','vada','dosa','idli','dosa','tea']\)\)) Tj ET
+BT /F1 7.3 Tf 42 621 Td (print\(mostPopular\(['tea','coffee','coffee','tea']\)\)) Tj ET
+BT /F1 7.3 Tf 42 601 Td (Output: \('dosa', 3\); then \('tea', 2\).) Tj ET
+BT /F1 7.3 Tf 42 591 Td (Hash-map method: average O\(n\) time, O\(u\) extra space for u unique items.) Tj ET
+BT /F1 7.3 Tf 42 581 Td (Repeatedly recounting every item by scanning all orders costs O\(n^2\) time.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001666 00000 n 
+0000001734 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1809
+%%EOF

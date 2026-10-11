@@ -1,0 +1,60 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1591 >>
+stream
+BT /F2 15 Tf 42 800 Td (Library Catalog Lookup) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Practice Part A - Problem 1 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Binary-search the sorted catalog by ISBN. Compare ISBN strings so leading zeroes remain.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (def findBook\(catalog, targetIsbn\):) Tj ET
+BT /F1 7.3 Tf 42 731 Td (low, high = 0, len\(catalog\) - 1) Tj ET
+BT /F1 7.3 Tf 42 721 Td (while low <= high:) Tj ET
+BT /F1 7.3 Tf 42 711 Td (mid = \(low + high\) // 2) Tj ET
+BT /F1 7.3 Tf 42 701 Td (isbn, title = catalog[mid]) Tj ET
+BT /F1 7.3 Tf 42 691 Td (if isbn == targetIsbn:) Tj ET
+BT /F1 7.3 Tf 42 681 Td (return title) Tj ET
+BT /F1 7.3 Tf 42 671 Td (if isbn < targetIsbn:) Tj ET
+BT /F1 7.3 Tf 42 661 Td (low = mid + 1) Tj ET
+BT /F1 7.3 Tf 42 651 Td (else:) Tj ET
+BT /F1 7.3 Tf 42 641 Td (high = mid - 1) Tj ET
+BT /F1 7.3 Tf 42 631 Td (return 'Not Found') Tj ET
+BT /F1 7.3 Tf 42 611 Td (catalog = [\('0001112223','Introduction to Algebra'\),) Tj ET
+BT /F1 7.3 Tf 42 601 Td (\('0002223334','Beginning Python'\),) Tj ET
+BT /F1 7.3 Tf 42 591 Td (\('0003334445','Classic Mythology'\),) Tj ET
+BT /F1 7.3 Tf 42 581 Td (\('0004445556','Data and Society'\),) Tj ET
+BT /F1 7.3 Tf 42 571 Td (\('0005556667','European History'\)]) Tj ET
+BT /F1 7.3 Tf 42 561 Td (print\(findBook\(catalog, '0003334445'\)\)) Tj ET
+BT /F1 7.3 Tf 42 551 Td (print\(findBook\(catalog, '0009998887'\)\)) Tj ET
+BT /F1 7.3 Tf 42 531 Td (Output: Classic Mythology; Not Found.) Tj ET
+BT /F1 7.3 Tf 42 521 Td (Complexity: O\(log n\) time and O\(1\) extra space.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001893 00000 n 
+0000001961 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2036
+%%EOF

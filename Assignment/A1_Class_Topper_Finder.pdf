@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1192 >>
+stream
+BT /F2 15 Tf 42 800 Td (Class Topper Finder) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Coding Assignment - Problem 1 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Return \(rowIndex, total\) for the student with highest total marks.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (Ties must choose the smallest row index. Update only when a sum is strictly greater.) Tj ET
+BT /F1 7.3 Tf 42 731 Td (def findTopper\(marks\):) Tj ET
+BT /F1 7.3 Tf 42 721 Td (best_index, best_total = 0, -1) Tj ET
+BT /F1 7.3 Tf 42 711 Td (for i, row in enumerate\(marks\):) Tj ET
+BT /F1 7.3 Tf 42 701 Td (total = sum\(row\)) Tj ET
+BT /F1 7.3 Tf 42 691 Td (if total > best_total:) Tj ET
+BT /F1 7.3 Tf 42 681 Td (best_index, best_total = i, total) Tj ET
+BT /F1 7.3 Tf 42 671 Td (return \(best_index, best_total\)) Tj ET
+BT /F1 7.3 Tf 42 651 Td (marks = [[78, 85, 90], [88, 92, 79], [65, 70, 95]]) Tj ET
+BT /F1 7.3 Tf 42 641 Td (print\(findTopper\(marks\)\)) Tj ET
+BT /F1 7.3 Tf 42 621 Td (Output: \(1, 259\)) Tj ET
+BT /F1 7.3 Tf 42 611 Td (Complexity: O\(m*n\) time, where m is students and n subjects.) Tj ET
+BT /F1 7.3 Tf 42 601 Td (Extra space: O\(1\), excluding the input grid and returned tuple.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001494 00000 n 
+0000001562 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1637
+%%EOF

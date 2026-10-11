@@ -1,0 +1,55 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1328 >>
+stream
+BT /F2 15 Tf 42 800 Td (Maximize Area Between Two Boundaries) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Practice Part A - Problem 5 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Maximize min\(heights[left], heights[right]\) * \(right-left\).) Tj ET
+BT /F1 7.3 Tf 42 741 Td (Move the pointer at the shorter wall because the shorter wall limits height.) Tj ET
+BT /F1 7.3 Tf 42 731 Td (def maxContainerArea\(heights\):) Tj ET
+BT /F1 7.3 Tf 42 721 Td (left, right = 0, len\(heights\) - 1) Tj ET
+BT /F1 7.3 Tf 42 711 Td (best = 0) Tj ET
+BT /F1 7.3 Tf 42 701 Td (while left < right:) Tj ET
+BT /F1 7.3 Tf 42 691 Td (height = min\(heights[left], heights[right]\)) Tj ET
+BT /F1 7.3 Tf 42 681 Td (best = max\(best, height * \(right-left\)\)) Tj ET
+BT /F1 7.3 Tf 42 671 Td (if heights[left] <= heights[right]:) Tj ET
+BT /F1 7.3 Tf 42 661 Td (left += 1) Tj ET
+BT /F1 7.3 Tf 42 651 Td (else:) Tj ET
+BT /F1 7.3 Tf 42 641 Td (right -= 1) Tj ET
+BT /F1 7.3 Tf 42 631 Td (return best) Tj ET
+BT /F1 7.3 Tf 42 611 Td (print\(maxContainerArea\([1,8,6,2,5,4,8,3,7]\)\)) Tj ET
+BT /F1 7.3 Tf 42 591 Td (Output: 49) Tj ET
+BT /F1 7.3 Tf 42 581 Td (Brute force is O\(n^2\) time. Two pointers are O\(n\) time and O\(1\) extra space.) Tj ET
+BT /F1 7.3 Tf 42 571 Td (The linear method scales much better for very large arrays.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001630 00000 n 
+0000001698 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1773
+%%EOF

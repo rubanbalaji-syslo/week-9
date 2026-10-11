@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1112 >>
+stream
+BT /F2 15 Tf 42 800 Td (Warehouse Grid Summary) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Practice Part A - Problem 2 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Return \(total_items, max_coordinate\). Row-major scanning breaks ties by the first cell.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (def warehouseSummary\(grid\):) Tj ET
+BT /F1 7.3 Tf 42 731 Td (total, max_value = 0, -1) Tj ET
+BT /F1 7.3 Tf 42 721 Td (max_coordinate = \(0, 0\)) Tj ET
+BT /F1 7.3 Tf 42 711 Td (for r, row in enumerate\(grid\):) Tj ET
+BT /F1 7.3 Tf 42 701 Td (for c, value in enumerate\(row\):) Tj ET
+BT /F1 7.3 Tf 42 691 Td (total += value) Tj ET
+BT /F1 7.3 Tf 42 681 Td (if value > max_value:) Tj ET
+BT /F1 7.3 Tf 42 671 Td (max_value, max_coordinate = value, \(r, c\)) Tj ET
+BT /F1 7.3 Tf 42 661 Td (return \(total, max_coordinate\)) Tj ET
+BT /F1 7.3 Tf 42 641 Td (grid = [[4,9,2], [7,1,6], [3,12,5]]) Tj ET
+BT /F1 7.3 Tf 42 631 Td (print\(warehouseSummary\(grid\)\)) Tj ET
+BT /F1 7.3 Tf 42 611 Td (Output: \(49, \(2, 1\)\)) Tj ET
+BT /F1 7.3 Tf 42 601 Td (Complexity: O\(m*n\) time and O\(1\) auxiliary space.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001414 00000 n 
+0000001482 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1557
+%%EOF

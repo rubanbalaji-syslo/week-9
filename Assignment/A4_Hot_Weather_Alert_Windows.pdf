@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1200 >>
+stream
+BT /F2 15 Tf 42 800 Td (Hot Weather Alert Windows) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Coding Assignment - Problem 4 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Count length-k contiguous windows whose average is at least threshold.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (Compare window_sum >= k*threshold to avoid decimal division.) Tj ET
+BT /F1 7.3 Tf 42 731 Td (def countAlerts\(readings, k, threshold\):) Tj ET
+BT /F1 7.3 Tf 42 721 Td (window_sum = sum\(readings[:k]\)) Tj ET
+BT /F1 7.3 Tf 42 711 Td (count = int\(window_sum >= k * threshold\)) Tj ET
+BT /F1 7.3 Tf 42 701 Td (for right in range\(k, len\(readings\)\):) Tj ET
+BT /F1 7.3 Tf 42 691 Td (window_sum += readings[right] - readings[right-k]) Tj ET
+BT /F1 7.3 Tf 42 681 Td (if window_sum >= k * threshold:) Tj ET
+BT /F1 7.3 Tf 42 671 Td (count += 1) Tj ET
+BT /F1 7.3 Tf 42 661 Td (return count) Tj ET
+BT /F1 7.3 Tf 42 641 Td (print\(countAlerts\([2,2,2,2,5,5,5,8], 3, 4\)\)) Tj ET
+BT /F1 7.3 Tf 42 621 Td (Output: 3) Tj ET
+BT /F1 7.3 Tf 42 611 Td (Recalculating each window costs O\(\(n-k+1\)*k\), worst-case O\(n*k\).) Tj ET
+BT /F1 7.3 Tf 42 601 Td (Sliding window: O\(n\) time and O\(1\) auxiliary space.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001502 00000 n 
+0000001570 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1645
+%%EOF

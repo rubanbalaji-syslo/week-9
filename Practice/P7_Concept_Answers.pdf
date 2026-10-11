@@ -1,0 +1,49 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1213 >>
+stream
+BT /F2 15 Tf 42 800 Td (Concept Questions - Answers) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Practice Part C - Questions 1-3) Tj ET
+BT /F1 7.3 Tf 42 751 Td (1. Unsorted versus sorted search) Tj ET
+BT /F1 7.3 Tf 42 741 Td (An unsorted array may require checking every element: worst-case O\(n\). A sorted array) Tj ET
+BT /F1 7.3 Tf 42 731 Td (supports binary search, which discards half the remaining range per step and takes O\(log n\).) Tj ET
+BT /F1 7.3 Tf 42 721 Td (This comparison assumes the array is already sorted; sorting first adds cost.) Tj ET
+BT /F1 7.3 Tf 42 701 Td (2. Why 2n is O\(n\)) Tj ET
+BT /F1 7.3 Tf 42 691 Td (Big-O ignores constant multipliers and describes asymptotic growth. The factor 2 changes) Tj ET
+BT /F1 7.3 Tf 42 681 Td (only the constant amount of work, so 2n is O\(n\).) Tj ET
+BT /F1 7.3 Tf 42 661 Td (3. Linear versus non-linear traversal) Tj ET
+BT /F1 7.3 Tf 42 651 Td (Arrays arrange elements in a sequence, so traversal generally moves index by index. Trees) Tj ET
+BT /F1 7.3 Tf 42 641 Td (branch through parent-child links and use strategies such as depth-first or breadth-first) Tj ET
+BT /F1 7.3 Tf 42 631 Td (search to visit their branches.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001515 00000 n 
+0000001583 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1658
+%%EOF

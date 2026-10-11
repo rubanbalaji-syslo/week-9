@@ -1,79 +1,57 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
->>
+<< /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Font
->>
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<<
-/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
->>
+<< /Length 1404 >>
+stream
+BT /F2 15 Tf 42 800 Td (Merging Two Token Queues) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Coding Assignment - Problem 2 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Merge two already sorted lists, preserve duplicates, and do not sort after concatenation.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (def mergeTokens\(counterA, counterB\):) Tj ET
+BT /F1 7.3 Tf 42 731 Td (i = j = 0) Tj ET
+BT /F1 7.3 Tf 42 721 Td (merged = []) Tj ET
+BT /F1 7.3 Tf 42 711 Td (while i < len\(counterA\) and j < len\(counterB\):) Tj ET
+BT /F1 7.3 Tf 42 701 Td (if counterA[i] <= counterB[j]:) Tj ET
+BT /F1 7.3 Tf 42 691 Td (merged.append\(counterA[i]\)) Tj ET
+BT /F1 7.3 Tf 42 681 Td (i += 1) Tj ET
+BT /F1 7.3 Tf 42 671 Td (else:) Tj ET
+BT /F1 7.3 Tf 42 661 Td (merged.append\(counterB[j]\)) Tj ET
+BT /F1 7.3 Tf 42 651 Td (j += 1) Tj ET
+BT /F1 7.3 Tf 42 641 Td (merged.extend\(counterA[i:]\)) Tj ET
+BT /F1 7.3 Tf 42 631 Td (merged.extend\(counterB[j:]\)) Tj ET
+BT /F1 7.3 Tf 42 621 Td (return merged) Tj ET
+BT /F1 7.3 Tf 42 601 Td (print\(mergeTokens\([3, 8, 15, 20], [5, 8, 12]\)\)) Tj ET
+BT /F1 7.3 Tf 42 591 Td (print\(mergeTokens\([], [4, 9]\)\)) Tj ET
+BT /F1 7.3 Tf 42 571 Td (Output: [3, 5, 8, 8, 12, 15, 20]; then [4, 9].) Tj ET
+BT /F1 7.3 Tf 42 561 Td (Complexity: O\(m+n\) time and O\(m+n\) output space.) Tj ET
+BT /F1 7.3 Tf 42 551 Td (Concatenate-then-sort takes O\(\(m+n\) log\(m+n\)\) time.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
 endobj
 5 0 obj
-<<
-/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
 endobj
 6 0 obj
-<<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
->>
-endobj
-7 0 obj
-<<
-/Author (Week 9 Solutions) /CreationDate (D:20261011083207+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261011083207+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (Merging Two Token Queues) /Trapped /False
->>
-endobj
-8 0 obj
-<<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
->>
-9 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1280
->>
-stream
-Gauy[D-D/\/e&H;*)EPO9Dl!.8b.#BF8!Gg6p!sUT!2!dRL%'2kO=s_=fW7^q?4]8_)a%i)+[/iqOna;uqmS+Asr)3Qaf)T_EG]cT/1<=&m3T6(u"`L`pk7L:=?ss1+Y_5L\Y=T93!?_:XOU+u4%1sle$Y'BL8n&A9*,:9h-S3tu<5J6@j!8V.`8H6#+p_*OK_(:[$'<6]B40jsJSouJ:09n.8d0pML@IK#I=`/>_M,@3hO&Y7"2@JZiS'_Q\"-AJ>W5Yqb=8sROSoF;$g2Tg0OlAadmL`KEisr\.D/.t"q=>+&?11*(*j53NXRtCJi'-7%"qKH`(3uIo-B,6`";un*aW,-TY_;WR,``e1#XYq.*i5;?W==J+`!B:A`0lDKecjd0+X+iCo>\N"*>\R`=u1GEIc2bqeSG!(\Zc8P3NCJ`thUjW<bH8:2ta1'W%D=Df&_(Ffi%,Tfl5$!\O@8>_W?ITuS*6]]1NkI&p9V;AUIB9@Lt0EKJA-#\('"+RnBGrie2s^^sp9NlE.T<h"j.fJKWn0jj5QfZ)'KH3U^qJ6aR:D-%i;YU]%W5?O0AKkbIS&8GoC[06J8(=G6!)dV:[%nKYVAT%%qgaM7=5hjhn`7e8S:(:btFs^ju6%aso<XYaNb:V@EO_54:Vu%p9gi3iliUB6CK0GEL^s`mA3jqb<KO!?f7AHbn?O+A87+)NpT<F2?ibE20.^#S0-SlA;9gZ/MW">+U-%bc3:oG6EU5QaHVIRsAo^)7d(uXR%B&I%J@;@iXi)nJVk8Z!t.i[P%Yt0#@4n5V?)O0Z)AM?o@3-:dpdGRRTCcXFd#n7rVmaQ_HpEu"sPdAVc?hYa(D<N*/Isq7IQD5V_,<j>[#Bo8XHS0Ifi&*VWB^b(1&JG`'"Oc4OEpWfqTK$Kr8CE^](c@KWO$pIdK6V*&D5ZD-fmeP3-cem`C+\a_V-Y7Qg<aHGA!JlNWI3:=;nd-e,"*,R4GXO:\A)Nu(C%@Xq]Hs7/Nhn__Y5tK]?W#jqi(O7m+_DuD4Aji1ZoQ;:<.I.)`?HjM2s?:)?e@lSZs7PqF0H8\h<CKf>GXqO?LA9\cB%A`qjt9FTsK!a.9:/>^!5"RX>.\bSO*hh#a_9::d(oi7@gL4\2@+Y&$bl*QNZ4#eXGIK3M_4oA0Rlf$ugb3k'5Bk's?bdoa7onVi#@ip?S_6lVnAWti@Xkf0W8Gj"&[d#Gm8K+")IG7%\Er;:CTQW;mBda<hem@1Ya1%RK:0dr-p>p8>*6L$S>[U6Fk@7mJoRA6^iNTOhIVi(kg%B.V/hL++[<h+FJ8%%7C[B(jc=hfF^4j3qc^&[`Lmlp~>endstream
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 xref
-0 10
+0 7
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000436 00000 n 
-0000000639 00000 n 
-0000000707 00000 n 
-0000000996 00000 n 
-0000001055 00000 n 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001706 00000 n 
+0000001774 00000 n 
 trailer
-<<
-/ID 
-[<5bad82c45fd72bc1e0d4ecee92e81902><5bad82c45fd72bc1e0d4ecee92e81902>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
->>
+<< /Size 7 /Root 1 0 R >>
 startxref
-2476
+1849
 %%EOF

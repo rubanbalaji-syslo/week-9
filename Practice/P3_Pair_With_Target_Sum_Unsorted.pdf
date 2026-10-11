@@ -1,0 +1,58 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1443 >>
+stream
+BT /F2 15 Tf 42 800 Td (Pair With Target Sum \(Unsorted\)) Tj ET
+BT /F1 9.5 Tf 42 777 Td (Practice Part A - Problem 3 | Python) Tj ET
+BT /F1 7.3 Tf 42 751 Td (Task: Return True if two distinct elements sum to target; values can be negative or duplicated.) Tj ET
+BT /F1 7.3 Tf 42 741 Td (Brute-force option:) Tj ET
+BT /F1 7.3 Tf 42 731 Td (def hasPairWithSum_brute\(nums, target\):) Tj ET
+BT /F1 7.3 Tf 42 721 Td (for i in range\(len\(nums\)\):) Tj ET
+BT /F1 7.3 Tf 42 711 Td (for j in range\(i + 1, len\(nums\)\):) Tj ET
+BT /F1 7.3 Tf 42 701 Td (if nums[i] + nums[j] == target:) Tj ET
+BT /F1 7.3 Tf 42 691 Td (return True) Tj ET
+BT /F1 7.3 Tf 42 681 Td (return False) Tj ET
+BT /F1 7.3 Tf 42 661 Td (Hash-set option:) Tj ET
+BT /F1 7.3 Tf 42 651 Td (def hasPairWithSum\(nums, target\):) Tj ET
+BT /F1 7.3 Tf 42 641 Td (seen = set\(\)) Tj ET
+BT /F1 7.3 Tf 42 631 Td (for value in nums:) Tj ET
+BT /F1 7.3 Tf 42 621 Td (if target - value in seen:) Tj ET
+BT /F1 7.3 Tf 42 611 Td (return True) Tj ET
+BT /F1 7.3 Tf 42 601 Td (seen.add\(value\)) Tj ET
+BT /F1 7.3 Tf 42 591 Td (return False) Tj ET
+BT /F1 7.3 Tf 42 571 Td (print\(hasPairWithSum\([2,7,11,15], 9\)\)) Tj ET
+BT /F1 7.3 Tf 42 561 Td (print\(hasPairWithSum\([3,4,6], 20\)\)) Tj ET
+BT /F1 7.3 Tf 42 541 Td (Output: True; then False.) Tj ET
+BT /F1 7.3 Tf 42 531 Td (Brute force: O\(n^2\) time, O\(1\) space. Hash set: average O\(n\) time, O\(n\) space.) Tj ET
+BT /F1 7 Tf 520 18 Td (1/1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001745 00000 n 
+0000001813 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1888
+%%EOF
